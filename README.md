@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @Rakesh-08
 - 👀 I’m interested in creating great softwares
-- 🌱 I’m currently learning full Stack Development
+- 🌱 I’m currently learning Back end Development
 - 📫 How to reach me : rkm8448746347@gmail.com
 
 <!---
