@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+}
+
+.navPart {
+  position: sticky;
+  background-color: rgb(104, 169, 199);
+  width: 100%;
+  top: 0;
+}
+.profileImg img {
+  height: 80px;
+  width: 100px;
+  padding: 10px;
+  margin-left: 50px;
+  border-radius: 50%;
+}

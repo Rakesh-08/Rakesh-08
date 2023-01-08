@@ -1,0 +1,36 @@
+#About-Me {
+  background-image: url("https://images.unsplash.com/photo-1612787733353-dd9ead94246d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGJyaWdodCUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80");
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+}
+.context {
+  display: flex;
+  justify-content: space-around;
+}
+.text {
+  font-size: 2rem;
+  margin: 0.5em;
+}
+.containerLeft {
+  margin-top: 10px;
+  padding: 20px;
+}
+.containerLeft > img {
+  height: 18rem;
+  border: 2px solid lightgray;
+  box-shadow: 10px 10px 10px 10px rgb(77, 74, 74);
+}
+.introContainer {
+  margin: 1.3rem;
+  padding: 1.3rem;
+  width: 50%;
+}
+.intro {
+  font-size: 1.2rem;
+  color: black;
+  font-weight: 600;
+  font-style: oblique;
+}
