@@ -1,1 +1,3 @@
+Hey everyone ,
+this is my first sample of a static webpage and I know there is alot more things that i need to learn to make this dynamic and impressive and I am working on it and one day ............
 
