@@ -1,0 +1,30 @@
+body {
+  background-color: aquamarine;
+  display: flex;
+   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+  margin: 0;
+  height: 100vh;
+}
+.container {
+  /* position: absolute;
+  bottom: 20px;*/
+
+  background-color: rgba(53, 48, 48, 0.452);
+  padding: 12px 20px;
+  font-size: 20px;
+  
+} 
+.container> input{
+    width:60px ;
+    padding:4px ;
+    text-align: center;
+    outline: 0;
+}
+
+
+
+
+

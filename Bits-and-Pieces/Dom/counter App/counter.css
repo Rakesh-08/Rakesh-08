@@ -1,0 +1,65 @@
+.counterPage {
+  background-color: whitesmoke;
+  text-align: center;
+}
+h1 {
+  font-weight: 500;
+  font-style: italic;
+}
+.home {
+  display: flex;
+  height: 80vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+#datetime {
+  height: 4em;
+  font-size: 1.5rem;
+  margin-right: 60px;
+  border: none;
+  padding: 10px;
+  border-radius: 5%;
+  background-color: aquamarine;
+}
+
+#submit {
+  height: 50px;
+  border: 1px solid black;
+  font-size: 1em;
+  box-shadow: 10px 20px 10px rgb(71, 70, 73);
+  cursor: pointer;
+}
+#submit:active {
+  transform: scale(1.2);
+}
+.display ul {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 40px;
+  padding: 10px;
+  list-style: none;
+  height: 40vh;
+}
+li {
+  font-size: 2em;
+  padding: 10px;
+}
+li > div {
+  margin-top: 40px;
+  font-size: 4rem;
+}
+#reset {
+  margin-bottom: 40px;
+  height: 40px;
+  width: 100px;
+  font-size: 1.2em;
+  background-color: rgb(234, 55, 35);
+  border: none;
+  cursor: pointer;
+}
+
+.UI {
+  display: none;
+}

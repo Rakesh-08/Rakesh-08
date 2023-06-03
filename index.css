@@ -1,0 +1,52 @@
+
+.projectRight {
+  flex: 0.5;
+  margin-right: 10px;
+  height: 500px;
+  width: 50vw;
+  text-align: center;
+}
+
+.list {
+  height: 28em;
+  margin: 10px;
+  padding: 10px;
+  display: grid;
+  grid-template: repeat(4, 1fr) / 2fr 1fr 2fr;
+  gap: 5px;
+}
+.listHeader {
+  font-size: 2em;
+  font-style: italic;
+  font-weight: bold;
+}
+.item {
+  place-self: center;
+}
+.item button {
+  height: 80px;
+  width: 160px;
+  border: none;
+  border-radius: 10%;
+  box-shadow: 10px 10px 20px rgb(29, 28, 28);
+  cursor: pointer;
+  margin: 5px;
+  background-color: rgb(75, 201, 96);
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.item:hover button {
+  background-color: brown;
+  transform: scale(0.8);
+}
+
+.contentFooter {
+  margin: 8em;
+  padding-bottom: 2em;
+  text-align: right;
+}
+.contentFooter h3 {
+  font-weight: 600;
+  font-style: oblique;
+}

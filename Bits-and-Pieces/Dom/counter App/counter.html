@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CountDown Timer</title>
+
+    <link rel="stylesheet" href="counter.css" />
+  </head>
+  <body>
+    <div class="counterPage">
+      <h1 class="title">Counter Timer</h1>
+      <div class="home">
+        <div id="input">
+          <input type="datetime-local" id="datetime" />
+
+          <button id="submit" type="submit">submit the date</button>
+        </div>
+      </div>
+
+      <div class="value UI">
+        <div id="display" class="display">
+          <ul>
+            <li>
+              Days
+              <div id="days"></div>
+            </li>
+            <li>
+              Hours
+              <div id="hours"></div>
+            </li>
+            <li>
+              Minutes
+              <div id="minutes"></div>
+            </li>
+            <li>
+              Seconds
+              <div id="seconds"></div>
+            </li>
+          </ul>
+
+          <button id="reset" type="click">Reset</button>
+        </div>
+      </div>
+    </div>
+    <script src="counter.js"></script>
+  </body>
+</html>

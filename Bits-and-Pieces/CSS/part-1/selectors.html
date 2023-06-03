@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+
+    <style>
+
+        /* *{
+            background-color: aquamarine;   universal selector
+        } 
+
+         h1{
+            background-color: red;
+        }
+        #ras{
+            background-color: yellow;
+        }
+
+        .tomato{
+            background-color: aqua;
+        }
+
+        h1.tomato{
+            background-color: blueviolet;
+        }
+
+        li#ras{
+            background-color: brown;
+        } 
+       li#ras.tomato{
+            background-color: green;
+        }
+
+        #ras,.tomato,h2{
+            background-color: chocolate;
+        }
+
+       ol li ol li {
+            background-color: bisque;
+        }
+
+        div>span {
+            background-color: blueviolet;           /*check for direct relation 
+        }
+
+        div span {
+            background-color: blueviolet;         /*check for any relation from top to bottom 
+        } 
+
+        li#ras ~ li{
+            color: burlywood;     /*  apply css to all those elements that comes after ~ with  given selector
+        }
+         
+        li#ras + li{
+            color: darkgoldenrod;    /* apply css to only one element that comes after ~ with  given selector
+        }
+        
+
+
+        ---- Pseudo selctors---
+
+        li:hover{
+            background-color: deepskyblue;
+            cursor: pointer;
+        }
+*/
+
+/* input:focus{
+    background-color: blueviolet;
+}
+input:required{
+    background-color: aquamarine;
+} */
+
+    span::before{
+    content: "choose something : ";
+    color: brown;
+}
+
+
+
+    </style>
+
+
+
+</head>
+<body>
+    <h1 class="tomato">Selectors in css</h1>
+    <h2>Heading </h2>
+    <div>
+        <h3>hello</h3>
+       <section>
+             <span>Pick any fruit you want</span>
+       </section>
+    </div>
+   
+    <ol>
+        <li class="tomato">apple</li>
+        <li id="ras">Mango</li>
+        <li>orange
+            <ol>
+                <li>kiwi</li>
+            </ol>
+        </li>
+        <li id="ras" class="tomato">peach</li>
+    </ol>
+
+    <input required type="text">
+</body>
+</html>

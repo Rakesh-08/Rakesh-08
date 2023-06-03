@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Css Units</title>
+
+    <style>
+      /* 
+        .one-em{
+            font-size: 1em;
+        }
+        .one-rem{
+            font-size: 1rem;
+        }
+        .two-em{
+            font-size: 2em;
+        }
+        .two-rem{
+            font-size: 2rem;
+        }
+        .px-32{
+            font-size: 32px;
+        }
+        div{
+            font-size: 30px;
+            border: 4px solid rebeccapurple;
+        } */
+       * {
+        margin: 0;
+      }
+
+      .box {
+        background-color: tomato;
+        margin-bottom: 10px;
+        height: 40px;
+        font-size: 30px;
+      }
+      .hundred-pix {
+        width: 600px;
+      }
+      .fifty-percent {
+        width: 50%;
+      }
+      .fifty-vw {
+        width: 50vw;
+      }
+
+      .parent-container{
+        border: 10px solid firebrick;
+        padding: 20px;
+        width: 700px;
+      }
+
+
+
+    </style>
+  </head>
+  <body>
+    <!-- <p>Sizes in css</p>
+    <p class="one-em">1 em</p>
+    <p class="one-rem"> 1 rem</p>
+    <p class="two-em">2 em</p>
+    <p class="two-rem"> 2 rem</p>
+    <p class="px-32"> 32 px</p>
+
+    <div>
+        
+    <p class="one-em">1 em</p>
+    <p class="one-rem"> 1 rem</p>
+    <p class="two-em">2 em</p>
+    <p class="two-rem"> 2 rem</p>
+    <p class="px-32"> 32 px</p>
+    </div> -->
+
+    <h1>Units</h1>
+    <div class="box hundred-pix">600px</div>  
+    <div class="box fifty-percent">50%</div>
+    <div class="box fifty-vw">50vw</div>
+
+    <div class="parent-container">
+        <div class="box hundred-pix">600px</div>
+    <div class="box fifty-percent">50%</div>
+    <div class="box fifty-vw">50vw</div>
+    </div>
+  </body>
+</html>

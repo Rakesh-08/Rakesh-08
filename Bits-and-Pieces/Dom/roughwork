@@ -1,0 +1,56 @@
+
+let body = document.body;
+
+
+ let Ulist= document.getElementById('todos')
+
+//  let li = document.createElement('li');
+
+//   li.classList.add("list-group-item", 'd-flex', "justify-content-between");
+
+//  let dbtn = document.createElement('button');
+//   dbtn.classList.add('btn', 'btn-danger','btn-sm','delete');
+//   dbtn.innerText='delete';
+//   li.innerText = 'music'
+
+//   li.appendChild(dbtn);
+//   Ulist.appendChild(li);
+
+  let arrTodo=[];
+
+
+  function addTodo() {
+    let item = document.getElementById("todo").value;
+  
+  if (item) {
+    let IsItemThere = arrTodo.find((i) => {
+      return i == item;
+    });
+    console.log('not reached')
+    if (!IsItemThere) {
+      arrTodo.push(item);
+
+       let li = document.createElement("li");
+
+       li.classList.add("list-group-item", "d-flex", "justify-content-between");
+
+       let dbtn = document.createElement("button");
+       dbtn.classList.add("btn", "btn-danger", "btn-sm", "delete");
+       dbtn.innerText = "delete";
+       li.innerText = item;
+
+       li.appendChild(dbtn);
+       Ulist.appendChild(li);
+         console.log('reached')
+      return alert("task successfully added in to-do list");
+    }
+
+    return alert("this to-do is already there");
+  }
+  alert("please put some valid text");
+}
+
+
+function deleteTodo(){
+    
+}

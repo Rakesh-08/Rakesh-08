@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do App</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div id="header" class="bg-secondary p-3 mb-2 text-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h1 id="headerTitle">TO-DO APP</h1>
+          </div>
+          <div class="col-md-6">
+            <input
+              type="text"
+              class="form-control"
+              id="filter"
+              placeholder="Search To-dos"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div id="middleSection" class="card card-body">
+        <h2 class="title">Add To-Dos</h2>
+        <form id="addForm" class="form-inline mb-3">
+          <input type="text" id="todo" class="form-control mb-4 w-100" />
+
+          <button type="submit" class="btn btn-dark">Submit</button>
+        </form>
+        <h2 class="title">To-Dos</h2>
+        <ul id="todos" class="list-group">
+          <li class="list-group-item bg-info" >
+            Todo 1
+            <button class="btn btn-danger btn-sm delete">delete</button>
+          </li>
+
+          <li class="list-group-item bg-info"  >
+            Todo 2
+            <button class="btn btn-danger btn-sm delete">delete</button>
+          </li>
+
+          <li class="list-group-item bg-info "  >
+            Todo 3
+            <button class="btn btn-danger btn-sm delete">delete</button>
+          </li>
+          <li class="list-group-item bg-info" >
+            Todo 4
+            <button class="btn btn-danger btn-sm delete">delete</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <script src="todo.js"></script>
+  </body>
+</html>
