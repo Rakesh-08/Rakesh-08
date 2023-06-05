@@ -1,6 +1,7 @@
 .counterPage {
   background-color: whitesmoke;
   text-align: center;
+  width:100vw
 }
 h1 {
   font-weight: 500;
@@ -26,6 +27,7 @@ h1 {
 
 #submit {
   height: 50px;
+  margin-top:20px;
   border: 1px solid black;
   font-size: 1em;
   box-shadow: 10px 20px 10px rgb(71, 70, 73);
@@ -37,10 +39,11 @@ h1 {
 .display ul {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap:wrap;
   margin: 40px;
   padding: 10px;
   list-style: none;
-  height: 40vh;
+  height: 60vh;
 }
 li {
   font-size: 2em;
