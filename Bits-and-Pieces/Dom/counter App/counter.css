@@ -1,5 +1,4 @@
 .counterPage {
-  background-color: whitesmoke;
   text-align: center;
   width:100vw
 }
@@ -18,7 +17,6 @@ h1 {
 #datetime {
   height: 4em;
   font-size: 1.5rem;
-  margin-right: 60px;
   border: none;
   padding: 10px;
   border-radius: 5%;
@@ -43,7 +41,7 @@ h1 {
   margin: 40px;
   padding: 10px;
   list-style: none;
-  height: 60vh;
+  min-height: 60vh;
 }
 li {
   font-size: 2em;
@@ -61,6 +59,20 @@ li > div {
   background-color: rgb(234, 55, 35);
   border: none;
   cursor: pointer;
+}
+
+.days{
+ background-color: mediumspringgreen;
+}
+.hours{
+     background-color: palegoldenrod;
+}
+}
+.minutes{
+      background-color: mediumpurple;
+}
+.seconds{
+  background-color: cadetblue;
 }
 
 .UI {
