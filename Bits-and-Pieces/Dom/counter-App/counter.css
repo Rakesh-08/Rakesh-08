@@ -21,6 +21,7 @@ h1 {
   padding: 10px;
   border-radius: 5%;
   background-color: aquamarine;
+  margin:1em;
 }
 
 #submit {
@@ -61,17 +62,18 @@ li > div {
   cursor: pointer;
 }
 
-.days{
+#days{
  background-color: mediumspringgreen;
 }
-.hours{
+#hours{
      background-color: palegoldenrod;
 }
 
-.minutes{
+#minutes{
       background-color: mediumpurple;
 }
-.seconds{
+
+#seconds{
   background-color: cadetblue;
 }
 
